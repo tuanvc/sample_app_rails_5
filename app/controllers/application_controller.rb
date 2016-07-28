@@ -4,4 +4,7 @@ class ApplicationController < ActionController::Base
   def hello
   	render html: "Xin chào các bạn, mình là Tuấn"
   end
+
+  def map
+  end
 end
