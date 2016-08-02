@@ -11,6 +11,6 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def help
+  def contact
   end
 end
