@@ -2,3 +2,16 @@ kaka:
   name: kaka
   email: kaka@gmail.com
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+lala:
+  name: lala
+  email: lala@gmail.com
+  password_digest: <%= User.digest('password') %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name: <%= "User #{n}" %>
+  email: <%= "user-#{n}@tuanvc.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>
