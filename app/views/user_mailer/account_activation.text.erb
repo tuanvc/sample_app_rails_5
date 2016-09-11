@@ -1,0 +1,6 @@
+Hi <% @user.name %>,
+
+Tớ yêu cậu,
+Click vào link bên dưới để được thung thướng nha:
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
