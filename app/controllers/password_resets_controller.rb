@@ -1,8 +1,11 @@
 class PasswordResetsController < ApplicationController
+<<<<<<< HEAD
   before_action :get_user, only: [:edit, :update]
   before_action :valid_user, only: [:edit, :update]
   before_action :check_expiration, only: [:edit, :update]
 
+=======
+>>>>>>> password-reset
   def new
   end
 
@@ -21,6 +24,7 @@ class PasswordResetsController < ApplicationController
 
   def edit
   end
+<<<<<<< HEAD
 
   def update
     if params[:user][:password].empty?
@@ -62,4 +66,6 @@ class PasswordResetsController < ApplicationController
         redirect_to new_password_reset_url
       end
     end
+=======
+>>>>>>> password-reset
 end
