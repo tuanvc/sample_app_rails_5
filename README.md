@@ -1,8 +1,5 @@
 # README
 
-Just a sample app
-It's done when I'm about to take a nap
-Hopefully, this is not crap
-So I can take another beautiful nap
+Just a sample app which has been done in the process of learning Ruby on Rails
 
-LOLOLOLO
+# sample_app_rails_5
