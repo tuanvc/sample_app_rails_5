@@ -1,3 +1,3 @@
 # README
 
-Just a sample app
+Ruby on Rails blog
